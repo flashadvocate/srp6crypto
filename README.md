@@ -5,7 +5,9 @@ Credits to Treeston for his work on TrinityCore Minimanager.
 
 ## Usage
 
-`composer require flashadvocate/srp6crypto`
+```
+composer require flashadvocate/srp6crypto
+```
 
 
 ## Example implementation
