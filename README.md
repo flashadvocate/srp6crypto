@@ -42,6 +42,9 @@ if ($sth instanceof \PDOStatement) {
     ]);
 }
 
+if ($rowsAffected)
+    echo "Account created successfully!";
+
 
 /**
  * later, check that salt and verifier match login credentials
