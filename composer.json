@@ -1,0 +1,20 @@
+{
+    "name": "flashadvocate/srp6crypto",
+    "description": "SRP6 implementation in PHP for TrinityCore",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SRP6Crypto\\": "src/"
+        }
+    },
+    "require": {
+        "ext-gmp": "*"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "prepend-autoloader": false,
+        "platform": {
+            "php": "^8.0"
+        }
+    }
+}
